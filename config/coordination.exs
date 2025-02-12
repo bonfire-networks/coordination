@@ -1,6 +1,6 @@
 import Config
 
-#### Extension-specific compile-time configuration goes here, everything else should be in `Cooperation.RuntimeConfig`
+#### Extension-specific compile-time configuration goes here, everything else should be in `Coordination.RuntimeConfig`
 
 
 # Please note that most of these are defaults meant to be overridden by instance admins in Settings rather than edited here
@@ -11,7 +11,7 @@ config :bonfire, :ui,
     instance_theme_light: "light",
     instance_icon: "/images/bonfire-icon.png",
     instance_image: "/images/bonfires.png",
-    instance_description: "This is a Bonfire (cooperation flavour) instance for testing purposes",
+    instance_description: "This is a Bonfire (coordination flavour) instance for testing purposes",
     instance_welcome: [
       title: "👋 Welcome",
       description:

@@ -1,4 +1,4 @@
-defmodule Cooperation do
+defmodule Coordination do
   @moduledoc "./README.md" |> File.stream!() |> Enum.drop(1) |> Enum.join()
 
   alias Bonfire.Common.Config
@@ -11,7 +11,7 @@ defmodule Cooperation do
   #   icon: "bi:app",
   #   description: l("An awesome extension")
   #   # default_nav: [
-  #   #   Cooperation.Web.HomeLive
+  #   #   Coordination.Web.HomeLive
   #   # ]
   # )
 

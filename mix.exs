@@ -1,6 +1,6 @@
 Code.eval_file("mess.exs", (if File.exists?("../../lib/mix/mess.exs"), do: "../../lib/mix/"))
 
-defmodule Cooperation.MixProject do
+defmodule Coordination.MixProject do
   use Mix.Project
 
   def project do
@@ -16,7 +16,7 @@ defmodule Cooperation.MixProject do
     end
     ++
     [
-      app: :cooperation,
+      app: :coordination,
       version: "0.0.1",
       elixir: "~> 1.10",
       elixirc_paths: elixirc_paths(Mix.env()),
@@ -25,12 +25,12 @@ defmodule Cooperation.MixProject do
       aliases: aliases(),
       description: "A flavour of Bonfire",
         homepage_url: "https://bonfirenetworks.org/",
-        source_url: "https://github.com/bonfire-networks/cooperation",
+        source_url: "https://github.com/bonfire-networks/coordination",
         package: [
           licenses: ["AGPL-3.0"],
           links: %{
-            "Repository" => "https://github.com/bonfire-networks/cooperation",
-            "Hexdocs" => "https://hexdocs.pm/cooperation"
+            "Repository" => "https://github.com/bonfire-networks/coordination",
+            "Hexdocs" => "https://hexdocs.pm/coordination"
           }
         ],
         docs: [

@@ -1,4 +1,4 @@
-defmodule Cooperation.RuntimeConfig do
+defmodule Coordination.RuntimeConfig do
   # use Bonfire.Common.Localise
 
   @behaviour Bonfire.Common.ConfigModule
@@ -10,7 +10,7 @@ defmodule Cooperation.RuntimeConfig do
   def config do
     import Config
 
-    # config :cooperation,
-    #   modularity: System.get_env("ENABLE_cooperation") || :disabled
+    # config :coordination,
+    #   modularity: System.get_env("ENABLE_coordination") || :disabled
   end
 end

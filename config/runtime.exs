@@ -1,3 +1,3 @@
 import Config
 
-Cooperation.RuntimeConfig.config()
+Coordination.RuntimeConfig.config()
