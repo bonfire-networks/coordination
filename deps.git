@@ -1,0 +1,21 @@
+bonfire_classify = "https://github.com/bonfire-networks/bonfire_classify"
+bonfire_quantify = "https://github.com/bonfire-networks/bonfire_quantify"
+bonfire_geolocate = "https://github.com/bonfire-networks/bonfire_geolocate"
+
+bonfire_valueflows = "https://github.com/bonfire-networks/bonfire_valueflows"
+
+bonfire_ui_valueflows = "https://github.com/bonfire-networks/bonfire_ui_valueflows"
+bonfire_ui_kanban = "https://github.com/bonfire-networks/bonfire_ui_kanban"
+bonfire_ui_coordination = "https://github.com/bonfire-networks/bonfire_ui_coordination"
+bonfire_breadpub = "https://github.com/bonfire-networks/bonfire_breadpub"
+
+bonfire_api_graphql = "https://github.com/bonfire-networks/bonfire_api_graphql"
+absinthe_client = "https://github.com/bonfire-networks/absinthe_client"
+
+# bonfire_ui_reflow = "https://github.com/bonfire-networks/bonfire_ui_reflow"
+
+# bonfire_recyclapp = "https://github.com/bonfire-networks/bonfire_recyclapp"
+
+# bonfire_taxonomy_seeder = "https://github.com/bonfire-networks/bonfire_taxonomy_seeder"
+bonfire_valueflows_observe = "https://github.com/bonfire-networks/bonfire_valueflows_observe"
+towel = "https://github.com/CyrusOfEden/towel"
