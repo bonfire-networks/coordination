@@ -1,3 +1,5 @@
+community = "https://github.com/bonfire-networks/community"
+
 bonfire_api_graphql = "https://github.com/bonfire-networks/bonfire_api_graphql"
 
 # bonfire_pages = "https://github.com/bonfire-networks/bonfire_pages"
