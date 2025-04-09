@@ -23,6 +23,8 @@ defmodule Coordination.DataCase do
       import Ecto.Changeset
       import Ecto.Query
       # import Coordination.DataCase
+
+      @moduletag :backend
     end
   end
 
