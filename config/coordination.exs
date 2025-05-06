@@ -15,9 +15,7 @@ config :bonfire, :ui,
     instance_welcome: [
       title: "👋 Welcome",
       description:
-        "Bonfire is a federated social networking toolkit to customise and host your own online space and control your experience at the most granular level.
-
-More details at https://bonfirenetworks.org",
+        "Powered by [Bonfire](https://bonfirenetworks.org), a federated social networking toolkit to customise and host your own online space and control your experience at the most granular level.",
       links: [
         "About Bonfire": "https://bonfirenetworks.org/",
         "About ValueFlows": "https://valueflo.ws/",
