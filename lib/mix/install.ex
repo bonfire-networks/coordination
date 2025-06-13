@@ -10,9 +10,7 @@ defmodule Mix.Tasks.Coordination.Install do
 
   @app :coordination
 
-  def igniter(igniter, args) do
-    # IO.inspect(args, label: "Args")
-
+  def igniter(igniter) do
     app_dir = Application.app_dir(@app)
 
     igniter
