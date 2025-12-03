@@ -88,3 +88,5 @@ config :bonfire, :ui,
 #      # Bonfire.UI.Social.HashtagsWidgetLive,
 #    ],
 # ]
+
+config :bonfire_valueflows_api_schema, modularity: true
