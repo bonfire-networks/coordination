@@ -1,3 +1,6 @@
+# NOTE: ember deps ARE inherited, other flavours deps are NOT. Mess reads exactly two dep lists: this file (which install.sh copies to config/current_flavour/) and the base ember one (config/deps.*, linked in for every flavour) — so anything ember already provides is available here for free.
+# But a PARENT flavour contributes no deps: its installer only copies config/, migrations and templates. So every dep that community adds ON TOP of ember and that this flavour wants must be repeated below.
+
 community = "https://github.com/bonfire-networks/community"
 
 bonfire_api_graphql = "https://github.com/bonfire-networks/bonfire_api_graphql"
