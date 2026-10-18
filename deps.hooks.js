@@ -26,11 +26,14 @@ let ExtensionHooks = {};
 import { GeolocateHooks } from "./../../deps/bonfire_geolocate/assets/js/extension"
 import { KanbanHooks } from "./../../deps/bonfire_ui_kanban/assets/js/extension"
 
-import { EncryptHooks } from "./../../deps/bonfire_encrypt/assets/js/extension"
+// disabled: coordination doesn't ship E2EE, and bonfire_encrypt isn't in deps/ so the import breaks the JS build
+// import { EncryptHooks } from "./../../deps/bonfire_encrypt/assets/js/extension"
+
+import { NotifyHooks } from "./../../deps/bonfire_notify/assets/js/extension"
 
 // import LiveSelect from "./../../deps/live_select/assets/js/live_select"
 import LiveSelect from "./../../deps/live_select/priv/static/live_select.min.js"
 
-Object.assign(ExtensionHooks,  LiveSelect, GeolocateHooks, KanbanHooks, EncryptHooks) // EditorCkHooks, EditorQuillHooks
+Object.assign(ExtensionHooks,  LiveSelect, NotifyHooks, GeolocateHooks, KanbanHooks) // EncryptHooks, EditorCkHooks, EditorQuillHooks
  
 export { ExtensionHooks }

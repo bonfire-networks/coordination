@@ -6,8 +6,8 @@ import Config
 config :bonfire, :ui,
   theme: [
     # instance_name: "Bonfire",
-    instance_theme: "bonfire",
-    instance_theme_light: "light",
+    # instance_theme: "bonfire",
+    # instance_theme_light: "light",
     instance_icon: "/images/bonfire-icon.png",
     instance_image: "/images/bonfires.png",
     instance_description:
