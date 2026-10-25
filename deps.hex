@@ -4,4 +4,22 @@
 # untangle = "~> 0.5"
 # needle = "~> 0.9"
 
-#absinthe = "~> 1.10.1"
+## from community ##
+
+# API
+absinthe = "~> 1.10.1"
+
+# Auth
+eqrcode = "~> 0.2.1"
+
+# Geo
+geo_postgis = "~> 3.1"
+geo = "~> 4.0"
+
+# Other
+phoenix = "~> 1.8" # note: should match version supported by version of surface used
+phoenix_live_view = "~> 1.1" # usually should let surface or bonfire_ui_common decide the version
+owl = "~> 0.11" # command line UI
+httpoison = "~> 2.1"
+poison = "~> 6.0" # not our preferred one, but some libs use it
+rustler_precompiled = "~> 0.8"

@@ -24,16 +24,18 @@ let ExtensionHooks = {};
 // import { ComposerHooks } from "./../../deps/bonfire_ui_common/assets/js/composer"
 
 import { GeolocateHooks } from "./../../deps/bonfire_geolocate/assets/js/extension"
-import { KanbanHooks } from "./../../deps/bonfire_ui_kanban/assets/js/extension"
 
 // disabled: coordination doesn't ship E2EE, and bonfire_encrypt isn't in deps/ so the import breaks the JS build
 // import { EncryptHooks } from "./../../deps/bonfire_encrypt/assets/js/extension"
 
 import { NotifyHooks } from "./../../deps/bonfire_notify/assets/js/extension"
 
+// thin shim only; the heavy xterm bundle is fetched on demand from /assets/console_terminal.js
+import { TerminalHooks } from "./../../deps/bonfire_ui_console/assets/js/terminal.js"
+
 // import LiveSelect from "./../../deps/live_select/assets/js/live_select"
 import LiveSelect from "./../../deps/live_select/priv/static/live_select.min.js"
 
-Object.assign(ExtensionHooks,  LiveSelect, NotifyHooks, GeolocateHooks, KanbanHooks) // EncryptHooks, EditorCkHooks, EditorQuillHooks
+Object.assign(ExtensionHooks,  LiveSelect, NotifyHooks, GeolocateHooks, TerminalHooks) // EncryptHooks, EditorCkHooks, EditorQuillHooks
  
 export { ExtensionHooks }

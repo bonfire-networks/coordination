@@ -1,8 +1,35 @@
 # NOTE: ember deps ARE inherited, other flavours deps are NOT. Mess reads exactly two dep lists: this file (which install.sh copies to config/current_flavour/) and the base ember one (config/deps.*, linked in for every flavour) — so anything ember already provides is available here for free.
-# But a PARENT flavour contributes no deps: its installer only copies config/, migrations and templates. So every dep that community adds ON TOP of ember and that this flavour wants must be repeated below.
+# But a PARENT flavour contributes no deps: its installer only copies config/, migrations and templates. So every dep that community (and its parent social) adds ON TOP of ember and that this flavour wants must be repeated below.
 
+ember = "https://github.com/bonfire-networks/ember"
 community = "https://github.com/bonfire-networks/community"
+social = "https://github.com/bonfire-networks/social"
 
+## from community (and social), minus bonfire_ghost ##
+bonfire_messages = "https://github.com/bonfire-networks/bonfire_messages"
+bonfire_ui_messages = "https://github.com/bonfire-networks/bonfire_ui_messages"
+bonfire_ui_reactions = "https://github.com/bonfire-networks/bonfire_ui_reactions"
+bonfire_ui_groups = "https://github.com/bonfire-networks/bonfire_ui_groups"
+bonfire_ui_topics = "https://github.com/bonfire-networks/bonfire_ui_topics"
+bonfire_search = "https://github.com/bonfire-networks/bonfire_search"
+bonfire_invite_links = "https://github.com/bonfire-networks/bonfire_invite_links"
+bonfire_data_shared_user = "https://github.com/bonfire-networks/bonfire_data_shared_user"
+bonfire_open_id = "https://github.com/bonfire-networks/bonfire_open_id"
+bonfire_articles = "https://github.com/bonfire-networks/bonfire_articles"
+bonfire_poll = "https://github.com/bonfire-networks/bonfire_poll"
+bonfire_translation = "https://github.com/bonfire-networks/bonfire_translation"
+bonfire_community_rules = "https://github.com/bonfire-networks/bonfire_community_rules"
+bonfire_ui_console = "https://github.com/bonfire-networks/bonfire_ui_console"
+mfm_parser = "https://akkoma.dev/AkkomaGang/mfm-parser.git"
+forecastr = "https://github.com/bonfire-networks/forecastr"
+activity_pub = "https://github.com/bonfire-networks/activity_pub"
+ecto_sparkles = "https://github.com/bonfire-networks/ecto_sparkles"
+needle = "https://github.com/bonfire-networks/needle"
+needle_uid = "https://github.com/bonfire-networks/needle_uid"
+needle_ulid = "https://github.com/bonfire-networks/needle_ulid"
+ex_ulid = "https://github.com/bonfire-networks/ex_ulid"
+
+## coordination ##
 bonfire_api_graphql = "https://github.com/bonfire-networks/bonfire_api_graphql"
 
 # bonfire_pages = "https://github.com/bonfire-networks/bonfire_pages"
@@ -10,12 +37,8 @@ bonfire_classify = "https://github.com/bonfire-networks/bonfire_classify"
 
 # bonfire_quantify = "https://github.com/bonfire-networks/bonfire_quantify"
 
-# bonfire_geolocate = "https://github.com/bonfire-networks/bonfire_geolocate"
+bonfire_geolocate = "https://github.com/bonfire-networks/bonfire_geolocate"
 bonfire_valueflows = "https://github.com/bonfire-networks/bonfire_valueflows"
-bonfire_ui_valueflows = "https://github.com/bonfire-networks/bonfire_ui_valueflows"
-bonfire_ui_kanban = "https://github.com/bonfire-networks/bonfire_ui_kanban"
-bonfire_ui_coordination = "https://github.com/bonfire-networks/bonfire_ui_coordination"
-bonfire_label = "https://github.com/bonfire-networks/bonfire_label"
 bonfire_divlab = "https://github.com/bonfire-networks/bonfire_divlab"
 
 # bonfire_breadpub = "https://github.com/bonfire-networks/bonfire_breadpub"

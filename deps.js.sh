@@ -6,8 +6,8 @@
 
 # Milkdown replaced the Quill and CK editors (their hooks are commented out in deps.hooks.js), and its composer lazy-loads the milkdown_editor.js bundle built from here
 # DEPS='iconify_ex bonfire_ui_common bonfire_editor_quill bonfire_editor_ck bonfire_geolocate bonfire_ui_kanban bonfire_ui_reactions'
-DEPS='iconify_ex bonfire_ui_common bonfire_editor_milkdown bonfire_geolocate bonfire_ui_kanban bonfire_ui_reactions'
-# 
+DEPS='iconify_ex bonfire_ui_common bonfire_editor_milkdown bonfire_geolocate bonfire_ui_console bonfire_ui_reactions'
+#
 
 chmod +x ./js-deps-get.sh
 ./js-deps-get.sh "$DEPS" $@
