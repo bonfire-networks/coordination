@@ -40,7 +40,7 @@ bonfire_classify = "https://github.com/bonfire-networks/bonfire_classify"
 bonfire_geolocate = "https://github.com/bonfire-networks/bonfire_geolocate"
 bonfire_valueflows = "https://github.com/bonfire-networks/bonfire_valueflows"
 bonfire_divlab = "https://github.com/bonfire-networks/bonfire_divlab"
-bonfire_collective_purchase = "https://github.com/bonfire-networks/bonfire_collective_purchase"
+# bonfire_collective_purchase = "https://github.com/bonfire-networks/bonfire_collective_purchase"
 
 # bonfire_breadpub = "https://github.com/bonfire-networks/bonfire_breadpub"
 
