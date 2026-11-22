@@ -29,6 +29,8 @@ needle_uid = "https://github.com/bonfire-networks/needle_uid"
 needle_ulid = "https://github.com/bonfire-networks/needle_ulid"
 ex_ulid = "https://github.com/bonfire-networks/ex_ulid"
 
+bonfire_gatherings = "https://github.com/bonfire-networks/bonfire_gatherings"
+
 ## coordination ##
 bonfire_api_graphql = "https://github.com/bonfire-networks/bonfire_api_graphql"
 
